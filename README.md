@@ -7,23 +7,23 @@
   <img src="https://img.shields.io/badge/BeautifulSoup-3C873A?style=for-the-badge" alt="BeautifulSoup" />
 </p>
 
-## 🇬🇧 Overview
+## Overview
 
 Fetches the links on the Hacker News front page with Requests and BeautifulSoup, then lets you pick one by number in a small Tkinter window and shows the selected URL.
 
 **Quick start:** `pip install -r requirements.txt && python main.py`
 
-## 🇹🇷 Proje hakkında
+## Proje hakkında
 
 Hacker News ana sayfasındaki bağlantıları `requests` ve `BeautifulSoup` ile toplayan, Tkinter arayüzünde seçilen sıradaki haberin adresini gösteren küçük bir web kazıma uygulaması.
 
-## ✨ Özellikler
+## Özellikler
 
 - `news.ycombinator.com` sayfasından `http/https` bağlantılarını çeker
 - Spinbox ile kaçıncı haberin gösterileceği seçilir
 - Sayfa alınamazsa HTTP durum kodunu yazdırır
 
-## ⚙️ Kurulum ve çalıştırma
+## Kurulum ve çalıştırma
 
 ```bash
 python -m venv .venv
@@ -35,7 +35,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-## 📁 Dosya yapısı
+## Dosya yapısı
 
 ```text
 HackerNews/
